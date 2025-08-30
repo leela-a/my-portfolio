@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{font-family: 'Candara', serif}
+		</style>
+	    <meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width"/>
+	    <link rel="stylesheet" href="calendarcss.css">
+	    <title>Calendar</title>
+		</head>
+	 <body>
+	 	<button id="back" onclick="new_button.monthDecrease()"><</button>
+	 	<button id="forward" onclick="new_button.monthIncrease()">></button>
+	 	<div id="displaycalendar">
+	 		
+	 	</div>
+	 	<script src="calendarjs.js"></script>
+	</body>
+	<dialog id="confirmOrDelete">
+		<p id="displayEvent"></p>
+		<button id="delete" value="delete" formmethod="dialog">Delete event</button><br></br>
+		<button id="cancel" value="cancel" formmethod="dialog">Cancel</button>
+	</dialog>
+</html>

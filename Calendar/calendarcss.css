@@ -1,0 +1,78 @@
+button
+{
+	border-radius: 8px;
+	border: 2px solid black;
+	background-color: #C57193;
+	font-size: 28px;
+	padding: 0.5em;
+	color: white;
+	border-color: #FFFFFF
+}
+
+#back
+{
+	float: left;
+}
+
+#forward
+{
+	float: right;
+}
+
+dialog
+{
+	background-color: #423D7B;
+	padding: 2em;
+	border-radius: 6px;
+	border: 3px solid black;
+}
+
+table
+{
+	width: 100%;
+	font-size: 20px;
+	border-collapse: collapse;
+	color: #FFFFFF;
+}
+
+th
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#monthDisplay
+{
+	text-align: center;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+td
+{
+	border: 3px solid black;
+	border-color: #FFFFFF;
+	text-align: center;
+	padding: 1.5em;
+	background-color: #5851A4;
+}
+
+#booked
+{
+	background-color: #BE6085;
+}
+
+td:active
+{
+	background-color: #C57193;
+}
+
+button:active
+{
+	background-color: #C57193;
+}
+
+body
+{
+	background-color: #423D7B;
+}
