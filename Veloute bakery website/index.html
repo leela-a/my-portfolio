@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Velouté Rouge</title>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&famiily=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- CONTENT -->
+	<header class="site-header">
+  		<a href="cart.html" class="cart-icon">
+    		🛒 <span id="cart-count">0</span>
+  		</a>
+	</header>
+
+	<section class="hero">
+		<h1>Velouté Rouge</h1>
+		<p>For hearts that crave the softest sweets.</p>
+		<a href="#menu" class="btn">View Menu</a>
+	</section>
+	<main>
+		<!-- About -->
+		<section id="about" class="about">
+			<div class="container">
+				<img src= "images/baker.jpg" alt="Baker at work">
+				<div class="text">
+					<h2>Our Story</h2>
+					<p>Born from a velvet dream...</p>
+				</div>
+			</div>
+		</section>
+		<!-- Menu -->
+		<section id="menu" class="menu">
+			<h2>Featured Treats</h2>
+			<div class="grid">
+				<!-- REPEAT THIS CARD FOR EACH ITEM -->
+				<div class="card">
+					<img src="images/red velvet cupcake.jpg" alt="Cupcake">
+					<h3>Mini Rose Velvet Cupcake</h3>
+					<p>$1.50</p>
+					<button class="add-to-cart"
+          					data-name="Mini Rose Velvet Cupcake"
+          					data-price="2.00">
+    				 Add to Cart
+  					</button>
+				</div>
+				<div class="card">
+					<img src="images/red velvet cupcake.jpg" alt="Cupcake">
+					<h3>Rose Velvet Cupcake</h3>
+					<p>$3.50</p>
+					<button class="add-to-cart"
+          					data-name="Rose Velvet Cupcake"
+          					data-price="3.50">
+    				 Add to Cart
+  					</button>
+				</div>
+				<div class="card">
+					<img src="images/cookies/one red velvet cookie.jpeg" alt="Cookie">
+					<h3>One Red Velvet Cookie</h3>
+					<p>$1.05</p>
+					<button class="add-to-cart"
+          					data-name="Red Velvet Cookies"
+          					data-price="1.05">
+    				 Add to Cart
+  					</button>
+				</div>
+				<div class="card">
+					<img src="images/cookies/six red velvet cookies.jpeg" alt="Cookies">
+					<h3>6 Red Velvet Cookies</h3>
+					<p>$6.50</p>
+					<button class="add-to-cart"
+          					data-name="6 Red Velvet Cookies"
+          					data-price="6.50">
+    				 Add to Cart
+  					</button>
+				</div>
+				<div class="card">
+					<img src="images/cookies/a dozen red velvet cookies.jpeg" alt="Cookies">
+					<h3>A dozen Red Velvet Cookies</h3>
+					<p>$12.60</p>
+					<button class="add-to-cart"
+          					data-name="A dozen Red Velvet Cookies"
+          					data-price="12.60">
+    				 Add to Cart
+  					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<input type="email" placeholder="Your email">
+				<button type="submit">Join Our Velvet Club</button>
+			</form>
+		</section>
+	</main>
+<!-- <section id="cart" class="cart"> 
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+  <p>Total: $<span id="cart-total">0.00</span></p>
+  <button onclick="alert('Checkout flow coming soon!')">
+    Checkout
+  </button>
+</section> -->
+<!-- Cart Modal -->
+<!-- <div id="cart-modal" class="cart-modal">
+  <div class="cart-window">
+    <button id="cart-close" class="cart-close">&times;</button>
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+</div> -->
+
+<script src="main.js"></script>
+</body>
+</html>		
