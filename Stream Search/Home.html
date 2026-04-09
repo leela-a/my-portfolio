@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Streaming Search Tool</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+	<div class="h1"><h1>Streaming Search Tool</h1></div>
+	
+<div class="hero-container">
+
+	<div class="filter-wrapper">
+	  <div class="filter-group">
+		<button id="filterAll" class="filter-btn active">All</button>
+		<button id="filterMovies" class="filter-btn">Movies</button>
+		<button id="filterTV" class="filter-btn">TV Shows</button>
+	  </div>
+	</div>
+	
+	<div class="hero-search-wrapper">
+	  <div class="hero-search">
+		<input
+		  type="text"
+		  id="searchInput"
+		  placeholder="Search for a movie or TV show..."
+		/>
+
+		<button id="searchButton" class="search-btn">Search</button>
+
+		<div class="country-wrapper">
+		  <div id="countryPicker" class="country-picker-inline">
+			<span id="countryLabel">📍Canada</span>
+		  </div>
+
+		  <div id="countryMenu" class="country-menu hidden">
+			<input
+			  id="countrySearch"
+			  type="text"
+			  placeholder="Search country..."
+			/>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+</div>	
+	  
+	<div id="results"></div>
+	
+	<div id="pagination" class="pagination hidden">
+	  <button id="prevPage" aria-label="Previous page">◀</button>
+	  <span id="pageIndicator">Page 1</span>
+	  <button id="nextPage" aria-label="Next page">▶</button>
+	</div>
+	
+	<script src="Script.js"></script>
+	
+</body>
+</html>	
+	
+	
